@@ -1,5 +1,0 @@
-.registrar p{
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-}

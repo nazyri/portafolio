@@ -1,3 +1,5 @@
+/* formulario registro */
+
 *{
     margin: 0;
     padding: 0;
@@ -48,12 +50,76 @@ body{
     text-decoration: underline;
 }
 
-.registrar .boton{
+.boton{
     width: 100%;
-    background-color: #e5ccf1;
+    background-color: #3c2048;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Ya tengo cuenta */
+
+.cuenta{
+    width: 400px;
+   background-color: #aaa;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   font-family: 'calibri';
+   color: white;
+   box-shadow: 7px 13px 37px #000;
+}
+
+
+.cuenta h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.correo{
+    width: 100%;
+    background-color: #aaa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.boton2{
+    width: 100%;
+    background-color: #3c2048;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Boton de check */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boton3{
+    margin: 10px;
+
+}
+
+.lbl-switch{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: #aaa    ;
 }
