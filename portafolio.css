@@ -226,3 +226,13 @@ li{
     font-size: 16px;
     cursor: pointer;
 }
+
+/* creando correo*/
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: palevioletred;
+    padding: 20px;
+}
