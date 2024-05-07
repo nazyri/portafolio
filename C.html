@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+
+    try {
+        btnRegistro.addEventListener("click",(e)=>{
+            e.preventDefault()
+            let warnings = ""
+            let entrar = false
+            parrafo.innerHTML = ""
+            if (nombre.value.length <4){
+              parrafo.innerHTML += 
+              entrar=true
+              console.log("dsad")
+            }
+            console.log(regexEmail.test(correo.value))
+            if(!regexEmail.test(correo.value.length )){
+             
+              entrar=true
+            }
+            if(password.value.length <8){
+               
+                entrar=true
+                console.log("dsad")
+            }
+            if(entrar){
+                parrafo.innerHTML = warnings
+            }else{
+                parrafo.innerHTML = 
+            }
     
     
 </body>
