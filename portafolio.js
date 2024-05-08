@@ -9,13 +9,6 @@ const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
 
 
-        window.location.href="r.html"
-    
- .catch (error) {
-    console.error("El error fue ",error)    
-}
-
-
 
 
 
