@@ -1,3 +1,38 @@
+.secion{
+    width: 400px;
+    background-color: #aaa;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.inicio{
+    width: 100%;
+    background-color: #aaa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.TyC{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
 /* formulario registro */
 
 *{
@@ -8,6 +43,8 @@
 
 body{
   background-image: url(fondos-de-pantalla.htm);
+  background-repeat: no-repeat;
+  
 }
 
 .registrar{
@@ -252,11 +289,12 @@ margin-top: 0px;
 }
 
 .bajar{
-    margin-top: 40px;
+    margin-left: 400px;
+    margin-top: -200px;
 }
 
 .centrar{
-    text-align: center;
+    text-align: left;
 }
 
 ul{
@@ -266,8 +304,30 @@ ul{
 
 li{
     font-size: x-large;
+    margin: 10px;
+}
+ 
+.descripcion{
+    text-align: center;
+    margin: 10px;
+}
+ 
+.lista{
+        font-size: x-large;
+    margin-left: 750px;  
+ }
+  
+.habilidades{
+    margin: 130px;
+    text-align: center;
 }
 
-p{
-    font-size: x-large;
+.mar{
+    text-align: center;
+    margin-top: -110px;
+    
+}
+
+.link{
+    text-align: center;
 }

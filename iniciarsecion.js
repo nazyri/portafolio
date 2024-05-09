@@ -1,11 +1,9 @@
 let nombreUsuario = document.getElementById("nombres")
-let primerApellido = document.getElementById("apellido")
 let gmail = document.getElementById("correo")
 let contraseña = document.getElementById("password")
 
 function guardarDatos() {
     localStorage.setItem("nombres",nombreUsuario.value)
-    localStorage.setItem("apellido",primerApellido.value)
     localStorage.setItem("correo",correo.value)
     localStorage.setItem("password",contraseña.value)
 }
@@ -15,100 +13,7 @@ function guardarDatos() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Guardar datos//
+localStorage.setItem ("nombres".value)
+localStorage.setItem("correo".value)
+localStorage.setItem("password".value)
