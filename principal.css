@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(208, 135, 9, 0.877);
+}
+
+.descripcion{
+    background-color: white;
+    width: 550px;
+    text-align: center;
+}
+
+.mar{
+    background-color: white;
+    width: 550px;
+    text-align: center;
+}
+
+.link{
+    background-color: white;
+    width: 550px;
+    text-align: center;
+}
