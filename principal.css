@@ -14,8 +14,91 @@ body{
     text-align: center;
 }
 
-.link{
+.cuadro{
     background-color: white;
     width: 550px;
+    height: 200px;
+}
+
+.link{
+    text-align: left;
+    margin-left: 190px;
+    margin-top: -100px;
+}
+
+li{
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tamaño */
+
+.img{
+    width: 350px;
+    height: 300px;
+    
+}
+
+.lado{
+    margin-top: -1590px;
+}
+.imagenes{
+margin-top: 0px;
+}
+
+.bajar{
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+.centrar{
+    text-align: left;
+}
+
+ul{
+    font-size: xx-large;
+    
+}
+
+li{
+    font-size: x-large;
+    margin: 10px;
+}
+ 
+.descripcion{
+    text-align: center;
+    margin: 10px;
+}
+ 
+.lista{
+        font-size: x-large;
+    margin-left: 750px;  
+ }
+  
+.habilidades{
+    margin: 130px;
+    text-align: center;
+}
+
+.mar{
+    text-align: center;
+    margin-top: -110px;
+    
+}
+
+.link{
     text-align: center;
 }
