@@ -5,46 +5,29 @@ body{
 .descripcion{
     background-color: white;
     width: 550px;
+    height: 290px;
+    margin-top: 350px;
+    margin-left: 450px;
+}
+
+.texto{
     text-align: center;
+    margin: 15px;
+    font-size: x-large;
 }
 
-.mar{
-    background-color: white;
-    width: 550px;
-    text-align: center;
-}
-
-.cuadro{
-    background-color: white;
-    width: 550px;
-    height: 200px;
-}
-
-.link{
+.centrar{
     text-align: left;
-    margin-left: 190px;
-    margin-top: -100px;
 }
 
-li{
-
-    text-align: center;
+.bajar{
+    margin-left: 300px;
+    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* tamaño */
+.imagenes{
+    margin-top: 0px;
+}
 
 .img{
     width: 350px;
@@ -52,20 +35,36 @@ li{
     
 }
 
-.lado{
-    margin-top: -1590px;
-}
-.imagenes{
-margin-top: 0px;
-}
-
-.bajar{
-    margin-left: 400px;
-    margin-top: -200px;
-}
-
-.centrar{
+li{
+    
     text-align: left;
+}
+
+.mar{
+    background-color: white;
+    text-align: center;
+    margin-top: -2053px;
+    margin-left: 1050px;
+    width: 300px;
+    height: 290px;
+}
+
+.lista{
+    font-size: x-large; 
+}
+
+.cuadro{
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+
+.link{
+        text-align: center;
+        margin-left: 190px;
+        margin-top: -140px;
 }
 
 ul{
@@ -73,32 +72,3 @@ ul{
     
 }
 
-li{
-    font-size: x-large;
-    margin: 10px;
-}
- 
-.descripcion{
-    text-align: center;
-    margin: 10px;
-}
- 
-.lista{
-        font-size: x-large;
-    margin-left: 750px;  
- }
-  
-.habilidades{
-    margin: 130px;
-    text-align: center;
-}
-
-.mar{
-    text-align: center;
-    margin-top: -110px;
-    
-}
-
-.link{
-    text-align: center;
-}

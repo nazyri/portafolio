@@ -3,7 +3,7 @@ let gmail = document.getElementById("correo")
 let contraseña = document.getElementById("password")
 let boton = document.getElementById("iniciar")
 
-iniciar.addEventListener("click",() =>{
+iniciar.addEventListener("click"(), e=>{
     const User = JSON.parse(localStorage.getItem("nombres"))
     console.log(User[0].correo)
     console.log(gmail.value)
@@ -21,9 +21,9 @@ iniciar.addEventListener("click",() =>{
 })
 
 
-
-
-//Guardar datos
-//localStorage.setItem ("nombres".value)
-//localStorage.setItem("correo".value)
-//localStorage.setItem("password".value)//
+/*Guardardatos (){
+    localStorage.setItem ("nombres".value)
+    localStorage.setItem("correo".value)
+    localStorage.setItem("password".value)
+}
+*/

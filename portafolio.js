@@ -1,29 +1,30 @@
 
-let usuario = document.getElementById("nombres")
-let primerApellido = document.getElementById("apellido")
-let gmail = document.getElementById("correo")
-let contraseña = document.getElementById("password")
-let boton = document.getElementById("resgistrarme")
+const usuario = document.getElementById("nombres")
+const primerApellido = document.getElementById("apellido")
+const gmail = document.getElementById("correo")
+const contraseña = document.getElementById("password")
+const boton = document.getElementById("resgistrarme")
+
 
 let credenciales = JSON.parse(localStorage.getItem("nombres"))||[]
 
-function  usuario2() {
+function  guuardar() {
     
     let datos = {
         
         nombres: usuario.value,
         apellido: primerApellido.value,
         correo: gmail.value,
-        password: boton.value,
+        password: contraseña.value,
     }
     
-
     credenciales.push(datos)
-    localStorage.setItem("nombres", JSON.stringify(usuario2))
+    localStorage.setItem("nombres", JSON.stringify(usuario))
 }
 
 contraseña.addEventListener("click", function () {
-    usuario2()
+    guuardar()
+
 })
 
 let correoLocal = localStorage.getItem ("correo")
@@ -34,8 +35,14 @@ let contraseñaLocal = localStorage.getItem ("password")
 
 
 
-
-
+/*
+function guardarDatos() {
+    localStorage.setItem("nombres",nombreUsuario.value)
+    localStorage.setItem("apellido",primerApellido.value)
+    localStorage.setItem("correo",correo.value)
+    localStorage.setItem("password",contraseña.value)
+}
+*/
 
 
 
@@ -94,18 +101,13 @@ function setErrorfor(input, massage) {
     const small = formCostrol.querySelector('small');
     formCostrol.classNa
 }
+*/
 
 
 
 
 
 
-
-function guardarDatos() {
-    localStorage.setItem("nombres",nombreUsuario.value)
-    localStorage.setItem("apellido",primerApellido.value)
-    localStorage.setItem("correo",correo.value)
-    localStorage.setItem("password",contraseña.value)*/
 
 
 
