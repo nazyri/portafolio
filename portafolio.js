@@ -3,14 +3,14 @@ const usuario = document.getElementById("nombres")
 const primerApellido = document.getElementById("apellido")
 const gmail = document.getElementById("correo")
 const contraseña = document.getElementById("password")
-const boton = document.getElementById("resgistrarme")
+let boton = document.getElementById("resgistrarme")
 
 
-let credenciales = JSON.parse(localStorage.getItem("nombres"))||[]
+let credenciales = JSON.parse(localStorage.getItem("nombres")) || []
 
-function  guuardar() {
+function  guardar() {
     
-    let datos = {
+    let data = {
         
         nombres: usuario.value,
         apellido: primerApellido.value,
@@ -18,20 +18,26 @@ function  guuardar() {
         password: contraseña.value,
     }
     
-    credenciales.push(datos)
-    localStorage.setItem("nombres", JSON.stringify(usuario))
+    credenciales.push(data)
+
+    localStorage.setItem("nombres", JSON.stringify(credenciales))
 }
 
-contraseña.addEventListener("click", function () {
-    guuardar()
+ boton.addEventListener("click", function () {
+    guardar()
 
 })
 
-let correoLocal = localStorage.getItem ("correo")
+
 let apellidoLocal = localStorage.getItem ("apellido")
+let correoLocal = localStorage.getItem ("correo")
 let contraseñaLocal = localStorage.getItem ("password")
 
-
+function compararRegistro() {
+    console.log(apellidoLocal)
+    console.log(correoLocal)
+    console.log(contraseñaLocal)
+}
 
 
 

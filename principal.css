@@ -7,32 +7,23 @@ body{
     width: 550px;
     height: 290px;
     margin-top: 350px;
-    margin-left: 450px;
-    position: static;
+    margin-left: 400px;
 }
 
 .texto{
     text-align: center;
     margin: 15px;
     font-size: x-large;
-    position: static;
-}
-
-.centrar{
-    text-align: left;
-    position: static;
 }
 
 .bajar{
     margin-left: 750px;
     margin-top: 400px;
-    position: static;
 }
 
 .imagenes{
     margin-top: 200px;
     float: left;
-    position: static;
 }
 
 .img{
@@ -57,70 +48,88 @@ body{
     
 }
 
-.titulo-2{
-   text-align: left;
-   
+.tt-2{
+    text-align: right;
+    margin-right: 520px;
 }
 
-.texto2{
-    
+.curriculum{
+    font-size: x-large;
+    text-align: right;
+    margin-right: 550px;
 }
 
 .foto{
     width: 370px;
     height: 350px;
-    margin-top: 300px;
-    margin-left: 150px;
-    position: static;
-}
-
-.img4{
-    width: 350px;
-    height: 300px;
-    margin-top: -800px;
-    margin-left: 300px;
-    position: static;
-}
-
-
-li{
+    margin-left: 950px;
     
 }
 
+.ttl3{
+    margin-left: 970px;
+    margin-top: 130px;
+}
+
+.like{
+    font-size: x-large;
+    text-align: right;
+    margin-right: 520px;
+}
+
+.img4{
+    height: 200px;
+    width: 350px;
+    height: 300px;
+    margin-left: 450px;
+    position: static;
+}
+
+.titul4{
+    margin-top: -300px;
+    margin-left: 400px;
+}
+
+.Flex{
+    font-size: x-large;
+    text-align: left;
+    margin-left: 450px;
+    
+}
+    
 .mar{
     background-color: white;
     text-align: center;
-    margin-top: -2143px;
-    margin-left: 1050px;
+    margin-top: -1991px;
+    margin-left: 1020px;
     width: 300px;
     height: 290px;
-    position: relative;
+    
 }
 
 .lista{
     font-size: x-large; 
-    position: static;
 }
 
 .cuadro{
     background-color: white;
     width: 550px;
-    height: 200px;
     margin-left: 700px;
     margin-top: 1900px;
-    position: static;
+    
 }
 
 .link{
     text-align: center;
     margin-left: 190px;
     margin-top: -140px;
-    position: static;
+    margin: 50px;
+    font-size: xx-large;
 }
     
 ul{
     font-size: xx-large;
-    position: static;
+   
 }
     
 .replica{
@@ -128,7 +137,20 @@ ul{
     margin-left: 450px;
 }
 
-.curriculum{
-    font-size: x-large;
-    margin-right: 50px;
+.f01{
+    margin-left: 100px;
+    margin-top: -1900px;
+    
 }
+
+
+.p4{
+    margin-left: 1400px;
+    margin-top: -290px;
+}
+
+.y6{
+margin-left: 600px;
+margin-top: -1100px;
+}
+
