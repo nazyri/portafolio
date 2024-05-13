@@ -8,49 +8,98 @@ body{
     height: 290px;
     margin-top: 350px;
     margin-left: 450px;
+    position: static;
 }
 
 .texto{
     text-align: center;
     margin: 15px;
     font-size: x-large;
+    position: static;
 }
 
 .centrar{
     text-align: left;
+    position: static;
 }
 
 .bajar{
-    margin-left: 300px;
-    
+    margin-left: 750px;
+    margin-top: 400px;
+    position: static;
 }
 
 .imagenes{
-    margin-top: 0px;
+    margin-top: 200px;
+    float: left;
+    position: static;
 }
 
 .img{
     width: 350px;
     height: 300px;
+    margin-top: -10px;
+    margin-left: 450px;
     
 }
 
+.titulo1{
+    margin-left: 450px;
+    margin-top: -130px;
+    
+}
+
+.img2{
+    width: 350px;
+    height: 300px;
+    margin-top: -20px;
+    margin-left: 150px;
+    
+}
+
+.titulo-2{
+   text-align: left;
+   
+}
+
+.texto2{
+    
+}
+
+.foto{
+    width: 370px;
+    height: 350px;
+    margin-top: 300px;
+    margin-left: 150px;
+    position: static;
+}
+
+.img4{
+    width: 350px;
+    height: 300px;
+    margin-top: -800px;
+    margin-left: 300px;
+    position: static;
+}
+
+
 li{
     
-    text-align: left;
 }
 
 .mar{
     background-color: white;
     text-align: center;
-    margin-top: -2053px;
+    margin-top: -2143px;
     margin-left: 1050px;
     width: 300px;
     height: 290px;
+    position: relative;
 }
 
 .lista{
     font-size: x-large; 
+    position: static;
 }
 
 .cuadro{
@@ -58,17 +107,28 @@ li{
     width: 550px;
     height: 200px;
     margin-left: 700px;
-    margin-top: 150px;
+    margin-top: 1900px;
+    position: static;
 }
 
 .link{
-        text-align: center;
-        margin-left: 190px;
-        margin-top: -140px;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: -140px;
+    position: static;
 }
-
+    
 ul{
     font-size: xx-large;
+    position: static;
+}
     
+.replica{
+    font-size: x-large;
+    margin-left: 450px;
 }
 
+.curriculum{
+    font-size: x-large;
+    margin-right: 50px;
+}
